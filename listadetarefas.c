@@ -53,6 +53,9 @@ int main() {
     keypad(stdscr, TRUE);
     noecho();
 
+    if (has_colors()) {
+        start_color();
+    }
 
     while(key != 27) {
         getmaxyx(stdscr, rows, cols);
