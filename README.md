@@ -1,5 +1,8 @@
 ## Lista de Tarefas - C
 
+<p style="display: flex;aling-itens: center">Testado em:   
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="20px"></p>
+
 Fiz uma lista de tarefas feita em C com a utilização da estrutura de dados `Lista Ligada` para a melhor compreenção vou fazer uma breve introdução:
 
 ### lista ligada/encadeada
