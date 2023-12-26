@@ -1,5 +1,3 @@
-#include <complex.h>
-#include <curses.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <ncurses.h>
@@ -44,18 +42,11 @@ void controledit(void *listas, int openlist, int *opition, char text[30], int *m
 void controldelet(void *listas, int openlist, int *opition, int *mod, int *auxposit, int type, int key);
 
 int main() {
-    FILE *arquivo;
     setlocale(LC_ALL, "");
     struct Lista *listas = NULL;
     int key, type = 0, mod = 0, part = 0, opition = 0, auxposit = 0, hactive = 0, hd = 0, hu = 0, md = 0, mu = 0, openlist = 0;
     int rows, cols;
     char text[30];
-
-    arquivo = fopen("savelist.bin", "rb");
-
-    if(arquivo != NULL) {
-        
-    }
 
     initscr();
     raw();
@@ -83,7 +74,7 @@ int main() {
                     break;
             }
 
-            printw("\n\nkey=%d/%c type=%d mod=%d openlist=%d part=%d opition=%d auxposit=%d, hactive=%d, hd=%d, hu=%d, md=%d, mu=%d", key, key, type, mod, openlist, part, opition, auxposit, hactive, hd, hu, md, mu);
+            // printw("\n\nkey=%d/%c type=%d mod=%d openlist=%d part=%d opition=%d auxposit=%d, hactive=%d, hd=%d, hu=%d, md=%d, mu=%d", key, key, type, mod, openlist, part, opition, auxposit, hactive, hd, hu, md, mu);
 
             key = getch();
             
