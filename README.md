@@ -1,9 +1,20 @@
 ## Lista de Tarefas - C
 
-<p style="display: flex;aling-itens: center">Testado em:   
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="20px"></p>
+Fiz uma lista de tarefas em C que pode criar listas, onde adiciona os itens da lista. Além disso, cada lista pode ser ativada com a utilização de hora em seus itens ou não, já que não é necessário ter a hora em todas as listas.
 
-Fiz uma lista de tarefas feita em C com a utilização da estrutura de dados `Lista Ligada` para a melhor compreenção vou fazer uma breve introdução:
+Página principal:
+![home](/imgs/img1.png)
+
+Página para adicionar novas listas:
+![home](/imgs/img2.png)
+
+Página dos itens:
+![home](/imgs/img3.png)
+
+Página para adicionar novos itens:
+![home](/imgs/img4.png)
+
+A lista de tarefas foi feita com a utilização da estrutura de dados `Lista Ligada` para a melhor compreenção vou fazer uma breve introdução:
 
 ### lista ligada/encadeada
 
