@@ -1,5 +1,8 @@
 ## Lista de Tarefas - C
 
+<p style="display: flex;aling-itens: center">Testado em:   
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="20px"></p>
+
 Fiz uma lista de tarefas em C que pode criar listas, onde adiciona os itens da lista. Além disso, cada lista pode ser ativada com a utilização de hora em seus itens ou não, já que não é necessário ter a hora em todas as listas.
 
 Página principal:
