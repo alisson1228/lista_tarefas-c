@@ -21,7 +21,7 @@ A lista de tarefas foi feita com a utilização da estrutura de dados `Lista Lig
 
 ### lista ligada/encadeada
 
-Essa estrutura de dado ela é semelhante a um `Array` porem com ela podemos ter uma alocação de memória dinamica onde o elemanto irá apontar para o proximo elemento e esse por sua vez ira fazer o mesmo ate o último que esse pode definir as duas variação da lista ligada que é a simplesmente ligada que o último retorna NULL e a duplamente ligada que o último retorna o primeiro elemento voltando para o inicio da lista.
+Essa estrutura de dado ela é semelhante a um `Array` porem com ela podemos ter uma alocação de memória dinamica onde o elemanto irá apontar para o proximo elemento e esse por sua vez ira fazer o mesmo ate o último que retorna NULL. Existe 3 tipos a simplesmente ligada que aponta para o proximo elemento, duplamente ligada que aponta para o proximo e o anterior e o circularmente ligada que o utimo elemento aponta pra o primeiro elemeto da lista.
 
 ### Sobre a Lista de Tarefas
 
